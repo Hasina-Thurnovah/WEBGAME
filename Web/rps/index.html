@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="notation-content">
+              <div class="win">🏆 :<span> Win</span></div>
+              <div class="tie">🙄 :<span> Tie</span></div>
+              <div class="lose">😥 :<span>Lose</span></div>
+              <div class="a">a :<span> Jeu automatique</span></div>
+              <div class="a">r :<span> Réinitialiser le score</span></div>
+            </div>
+
+      <header class="game-header">
+        
+        <div class="head">
+        <a href="../index.html" class="back-btn">⬅ Retour</a>
+        <button class="help-btn">Aide</button>
+        
+        </div>
+
+        <h1 class="game-title">Rock • Paper • Scissors</h1>
+        <div class="score-notation">
+          <div class="score-card">
+            <span>Toi: <strong class="user"></strong></span>
+            <span>|</span>
+            <span>Ordinateur <strong class="computer"></strong></span>
+          </div>
+          <div class="notation">
+            <!--
+            
+          -->
+          </div>
+        </div>
+      </header>
+
+      <main class="game-card">
+        <p class="result"></p>
+
+        <div class="arena">
+          <div class="you-left">
+            <div class="you">Toi</div>
+            <div class="left"></div>
+          </div>
+          <div class="vs">VS</div>
+          <div class="computer-right">
+            <div class="computer">Ordinateur</div>
+            <div class="right"></div>
+          </div>
+        </div>
+
+        <div class="choices">
+          <button class="choice rock">
+            <img src="images/rock.png" />
+            <span>Pierre</span>
+          </button>
+
+          <button class="choice paper">
+            <img src="images/paper.png" />
+            <span>Papier</span>
+          </button>
+
+          <button class="choice scissors">
+            <img src="images/scissors.png" />
+            <span>Ciseaux</span>
+          </button>
+        </div>
+         <p class="confirmation"></p>
+        <div class="actions">
+          <button class="autoplay">Jeu automatique</button>
+          <button class="reset danger">Réinitialiser le score</button>
+        </div>
+
+       
+      </main>
+    </div>
+    <div class="countdown"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

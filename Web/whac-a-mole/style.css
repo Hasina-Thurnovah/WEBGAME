@@ -1,0 +1,83 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
+background: linear-gradient(135deg, #0f172a, #1e3a8a);
+margin-bottom: 0px;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 400px;
+    padding: 10px 5px 10px 5px;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 0px 10px rgb(234, 231, 238);
+
+}
+.container{
+    margin-top: 400px;
+    background: whitesmoke;
+}
+.container-grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+.flex-back-help{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 700px;
+}
+.flex-score-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    gap: 200px;
+
+
+}
+.mole{
+    background-color: blue;
+}
+.back{
+    border: none;
+    background: rgb(150, 250, 150);
+    text-decoration: none;
+    
+
+}
+.flex-back-help button{
+border: none;
+color: rgb(6, 2, 44);
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+}
+.help{
+    background: transparent;
+}
+.flex-back-help a{
+    text-decoration: none;
+    color: rgb(6, 2, 44);
+}
+.title{
+    color: #0f172a;
+}
